@@ -1,0 +1,31 @@
+{
+  "name": "modemax",
+  "displayName": "modemax",
+  "version": "0.1.0",
+  "description": "Shape work with the user into tickets, then build each ticket with deliberate subagents, simple code, and verified evidence. pstack's way of building (Lauren Tan, via the pstack-claude port) merged with Matt Pocock's grilling, specs, and tickets.",
+  "author": {
+    "name": "Maxime Chabert",
+    "url": "https://github.com/maximechbt"
+  },
+  "homepage": "https://github.com/maximechbt/skills",
+  "repository": "https://github.com/maximechbt/skills",
+  "license": "MIT",
+  "keywords": [
+    "modemax",
+    "workflow",
+    "grilling",
+    "spec",
+    "tickets",
+    "issue-tracker",
+    "tdd",
+    "code-review",
+    "principles",
+    "subagents",
+    "unslop",
+    "claude-code",
+    "codex",
+    "opencode",
+    "gemini-cli",
+    "prime-agent"
+  ]
+}

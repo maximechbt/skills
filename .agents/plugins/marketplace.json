@@ -1,0 +1,21 @@
+{
+  "name": "modemax",
+  "interface": {
+    "displayName": "modemax"
+  },
+  "plugins": [
+    {
+      "name": "modemax",
+      "source": {
+        "source": "local",
+        "path": "./plugins/modemax"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": ["CODEX"]
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

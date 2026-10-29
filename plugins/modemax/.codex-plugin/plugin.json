@@ -1,0 +1,52 @@
+{
+  "name": "modemax",
+  "version": "0.1.0",
+  "description": "Shape work with the user into tickets, then build each ticket with deliberate subagents, simple code, and verified evidence. pstack's way of building (Lauren Tan, via the pstack-claude port) merged with Matt Pocock's grilling, specs, and tickets. Codex build: tool names resolve via skills/modemax/references/codex-tools.md.",
+  "author": {
+    "name": "Maxime Chabert",
+    "url": "https://github.com/maximechbt"
+  },
+  "homepage": "https://github.com/maximechbt/skills",
+  "repository": "https://github.com/maximechbt/skills",
+  "license": "MIT",
+  "keywords": [
+    "modemax",
+    "workflow",
+    "grilling",
+    "spec",
+    "tickets",
+    "issue-tracker",
+    "tdd",
+    "code-review",
+    "principles",
+    "subagents",
+    "unslop",
+    "claude-code",
+    "codex",
+    "opencode",
+    "gemini-cli",
+    "prime-agent"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/codex-hooks.json",
+  "interface": {
+    "displayName": "modemax",
+    "shortDescription": "Shape work into tickets, then build and verify each one",
+    "longDescription": "modemax shapes work with you (grilling, glossary and ADRs, specs, tracer-bullet tickets on the issue tracker), then builds each ticket through playbooks with parallel design exploration (architect/arena), adversarial review (interrogate), test-first seams, and verified delivery as a PR that closes the ticket.",
+    "developerName": "Maxime Chabert",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Grill me on this feature, then write the spec and tickets.",
+      "Implement the next ready ticket."
+    ],
+    "websiteURL": "https://github.com/maximechbt/skills",
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/modemax-icon.png",
+    "logo": "./assets/modemax-icon.png"
+  }
+}
